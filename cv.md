@@ -6,8 +6,8 @@ Hello on my cv page i am a Front-End Developer
 
 - location: Belarus, Novopolotsk
 - e-mail: <arthouse92@gmail.com>
-- linkedin [ArtyomAkasevich](https://www.linkedin.com/in/ArtyomAkasevich/)
-- github [soofleshka](https://github.com/soofleshka)
+- linkedin: [ArtyomAkasevich](https://www.linkedin.com/in/ArtyomAkasevich/)
+- github: [soofleshka](https://github.com/soofleshka)
 - codepen: [soofleshka](https://codepen.io/soofleshka)
 
 ## Skills
