@@ -1,6 +1,6 @@
 ## Markdown
 
-https://soofleshka.github.io/rsschool-cv/cv/
+https://soofleshka.github.io/rsschool-cv/cv
 
 ## HTML, CSS
 
