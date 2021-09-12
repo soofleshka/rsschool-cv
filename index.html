@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="navbar">
+          <li class="navbar__item"><a href="#contacts">Contacts</a></li>
+          <li class="navbar__item"><a href="#skills">Skills</a></li>
+          <li class="navbar__item"><a href="#cources">Cources</a></li>
+          <li class="navbar__item"><a href="#experience">Experience</a></li>
+          <li class="navbar__item"><a href="#education">Education</a></li>
+          <li class="navbar__item"><a href="#languages">Languages</a></li>
+          <li class="navbar__item">
+            <a href="#code-examples">Code examples</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <main>
+        <div class="about-me">
+          <h1>Artyom Akasevich</h1>
+          <p class="about-me__welcome">
+            Hello on my cv page i am a Front-End Developer
+          </p>
+          <div class="about-me__image">
+            <img
+              src="/images/whoisthis.png"
+              alt="profile img"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+
+        <section id="contacts">
+          <h2>Contacts</h2>
+          <ul class="contacts-list">
+            <li>location: Belarus, Novopolotsk</li>
+            <li>
+              e-mail:
+              <a href="mailto:arthouse92@gmail.com" target="blank"
+                >arthouse92@gmail.com</a
+              >
+            </li>
+            <li>
+              linkedin:
+              <a
+                href="https://www.linkedin.com/in/ArtyomAkasevich/"
+                target="blank"
+                >ArtyomAkasevich</a
+              >
+            </li>
+            <li>
+              github:
+              <a href="https://github.com/soofleshka" target="blank"
+                >soofleshka</a
+              >
+            </li>
+            <li>
+              codepen:
+              <a href="https://codepen.io/soofleshka" target="blank"
+                >soofleshka</a
+              >
+            </li>
+          </ul>
+        </section>
+
+        <section id="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>Html, CSS/SCSS</li>
+            <li>Javascript, React JS, Redux, Express</li>
+            <li>C#, asp.net core, EF</li>
+          </ul>
+        </section>
+
+        <section id="cources">
+          <h2>Cources</h2>
+          <ul>
+            <li>ReactJS Way of the Samurai (2021)</li>
+            <li>FreeCodeCamp (2021)</li>
+          </ul>
+        </section>
+
+        <section id="experience">
+          <h2>Experience</h2>
+          <ul>
+            <li>Software Engineer - Belarusbank (2015-2018)</li>
+          </ul>
+        </section>
+
+        <section id="education">
+          <h2>Education</h2>
+          <ul>
+            <li>
+              BSU
+              <ul>
+                <li>
+                  Faculty of Applied Mathematics and Computer Science
+                  (2009-2014)
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+
+        <section id="languages">
+          <h2>Languages</h2>
+          <ul>
+            <li>Russian</li>
+            <li>English(A2)</li>
+          </ul>
+        </section>
+
+        <section id="code-examples">
+          <h2>Code examples</h2>
+          <pre><code> 
+  function multiply(a, b){
+    return a * b 
+  } 
+        </code></pre>
+        </section>
+      </main>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="footer">
+          <div>
+            <a href="https://github.com/soofleshka" class="git-link">
+              <img src="/images/GitHub-Mark.png" alt="github logo" />
+              <span class="git-link__text">github /soofleshka</span>
+            </a>
+          </div>
+          <div>
+            <span>&copy; 2021</span>
+          </div>
+          <div>
+            <a href="https://rs.school/js/">
+              <img
+                src="https://rs.school/images/rs_school_js.svg"
+                alt="rsschool logo"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+  </body>
+</html>
