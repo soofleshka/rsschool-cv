@@ -1,6 +1,6 @@
 # Artyom Akasevich
 
-Hello on my cv page i am a Front-End Developer
+Welcome to my cv page i am a Front-End Developer
 
 ## Contacts
 
