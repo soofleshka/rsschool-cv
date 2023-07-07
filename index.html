@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="./css/androidstudio.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-light">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto m-auto mb-lg-0">
+              <li class="nav-item">
+                <a href="#contacts" class="nav-link">Contacts</a>
+              </li>
+              <li class="nav-item">
+                <a href="#skills" class="nav-link">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a href="#cources" class="nav-link">Cources</a>
+              </li>
+              <li class="nav-item">
+                <a href="#experience" class="nav-link">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a href="#education" class="nav-link">Education</a>
+              </li>
+              <li class="nav-item">
+                <a href="#languages" class="nav-link">Languages</a>
+              </li>
+              <li class="nav-item">
+                <a href="#projects" class="nav-link">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a href="#code-example" class="nav-link">Code example</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="about-me text-center">
+          <h1>Artyom Akasevich</h1>
+          <p class="about-me__welcome">
+            Wellcome to my cv page i am a Web Developer
+          </p>
+          <img
+            src="./images/whoisthis.png"
+            alt="profile img"
+            class="about-me__image"
+         >
+        </div>
+
+        <section id="contacts">
+          <h2>Contacts</h2>
+          <ul class="contacts-list">
+            <li>location: Belarus, Novopolotsk</li>
+            <li>
+              e-mail:
+              <a href="mailto:arthouse92@gmail.com" target="blank"
+                >arthouse92@gmail.com</a
+              >
+            </li>
+            <li>
+              linkedin:
+              <a
+                href="https://www.linkedin.com/in/ArtyomAkasevich/"
+                target="blank"
+                >ArtyomAkasevich</a
+              >
+            </li>
+            <li>
+              github:
+              <a href="https://github.com/soofleshka" target="blank"
+                >soofleshka</a
+              >
+            </li>
+            <li>
+              codepen:
+              <a href="https://codepen.io/soofleshka" target="blank"
+                >soofleshka</a
+              >
+            </li>
+          </ul>
+        </section>
+
+        <section id="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>Html, CSS/SCSS</li>
+            <li>Javascript, React JS, Redux, Express</li>
+            <li>C#, asp.net core, EF</li>
+          </ul>
+        </section>
+
+        <section id="cources">
+          <h2>Cources</h2>
+          <ul>
+            <li>ReactJS Way of the Samurai (2021)</li>
+            <li>FreeCodeCamp (2021)</li>
+          </ul>
+        </section>
+
+        <section id="experience">
+          <h2>Experience</h2>
+          <ul>
+            <li>Software Engineer - Belarusbank (2015-2018)</li>
+          </ul>
+        </section>
+
+        <section id="education">
+          <h2>Education</h2>
+          <ul>
+            <li>
+              BSU
+              <ul>
+                <li>
+                  Faculty of Applied Mathematics and Computer Science
+                  (2009-2014)
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+
+        <section id="languages">
+          <h2>Languages</h2>
+          <ul>
+            <li>Russian</li>
+            <li>English(A2)</li>
+          </ul>
+        </section>
+
+        <section id="projects" class="projects">
+          <h2>Projects</h2>
+          <details id="project-details" class="my-3">
+            <summary id="project-details-summary" class="ms-3">
+              Show projects
+            </summary>
+            <div class="row my-1 mx-2 g-3 projects-list align-content-stretch">
+              <div class="col-md-4">
+                <a
+                  target="_blank"
+                  href="https://github.com/soofleshka/SekaShop"
+                  class="card shadow-sm projects-list__item p-1 h-100"
+                >
+                  <img
+                    src="./images/sekaShop.png"
+                    alt=""
+                    class="img-fluid rounded censured-img"
+                 >
+                  <div class="card-body">
+                    <div class="card-title text-center"><h6>SekaShop</h6></div>
+                    <p class="card-text">
+                      An online shop where the client side written in pure
+                      javascript and the server side in C# and asp.net core
+                    </p>
+                  </div>
+                  <div class="card-footer text-center">
+                    <span class="badge bg-danger">Html/CSS</span>
+                    <span class="badge bg-danger">Javascript</span>
+                    <span class="badge bg-danger">ASP.NET core</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-4">
+                <a
+                  target="_blank"
+                  href="https://github.com/soofleshka/pictures-competitions"
+                  class="card shadow-sm projects-list__item p-1 h-100"
+                >
+                  <img
+                    src="./images/pic-comp.png"
+                    alt=""
+                    class="img-fluid rounded"
+                 >
+                  <div class="card-body">
+                    <div class="card-title text-center">
+                      <h6>Picture Competitions</h6>
+                    </div>
+                    <p class="card-text">
+                      Create a comparison of pictures or take a part in them
+                    </p>
+                  </div>
+                  <div class="card-footer text-center">
+                    <span class="badge bg-danger">Html/CSS</span>
+                    <span class="badge bg-danger">ReactJS</span>
+                    <span class="badge bg-danger">Express</span>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-4">
+                <a
+                  target="_blank"
+                  href="https://github.com/soofleshka/Real-Estate-Template"
+                  class="card shadow-sm projects-list__item p-1 h-100"
+                >
+                  <img
+                    src="./images/houseLanding.png"
+                    alt=""
+                    class="img-fluid rounded"
+                 >
+                  <div class="card-body">
+                    <div class="card-title text-center">
+                      <h6>Random landing page</h6>
+                    </div>
+                    <p class="card-text">
+                      Site layout based on the figma project
+                    </p>
+                  </div>
+                  <div class="card-footer text-center">
+                    <span class="badge bg-danger">Html</span>
+                    <span class="badge bg-danger">CSS</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </details>
+        </section>
+
+        <section id="code-example">
+          <h2>Code example</h2>
+          <div class="mx-3">
+            <pre><code>
+  function multiply(a, b){
+    return a * b
+  }
+            </code></pre>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer">
+          <div>
+            <a
+              target="_blank"
+              href="https://github.com/soofleshka"
+              class="git-link"
+            >
+              <img src="./images/GitHub-Mark.png" alt="github logo">
+              <span class="git-link__text">/soofleshka</span>
+            </a>
+          </div>
+          <div>
+            <mark>&copy; <time datetime="2021">2021</time></mark>
+          </div>
+          <div>
+            <a target="_blank" href="https://rs.school/js/">
+              <img src="./images/rs_school_js.svg" alt="rsschool logo">
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/highlight.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+    <script src="./js/console-log.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
